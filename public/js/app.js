@@ -38532,7 +38532,7 @@ var render = function() {
                             ),
                             _vm._v(" "),
                             _c("option", { attrs: { value: "male" } }, [
-                              _vm._v("رجل")
+                              _vm._v("`ذكر")
                             ]),
                             _vm._v(" "),
                             _c("option", { attrs: { value: "female" } }, [
@@ -39327,7 +39327,7 @@ var render = function() {
                 attrs: {
                   type: "text",
                   id: "exampleInputEmail1",
-                  placeholder: "رقم الهوية أو اسم المكان"
+                  placeholder: "اسم المشرف أو البريد الالكتروني"
                 },
                 domProps: { value: _vm.search },
                 on: {

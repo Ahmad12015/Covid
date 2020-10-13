@@ -31,7 +31,7 @@
                             <div class="col">
                                     <select class="form-control" v-model="patient.gender" data-style="btn btn-link" id="genderFormControlSelect1">
                                         <option disabled selected>الجنس</option>
-                                        <option value="male">رجل</option>
+                                        <option value="male">`ذكر</option>
                                         <option value="female">أنثى</option>
                                     </select>
                             </div>

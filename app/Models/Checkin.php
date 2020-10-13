@@ -14,6 +14,7 @@ class Checkin extends Model
     private $device_id ;
     private $place_id ;
     private $checkin_time ;
+    private $checkout_time ;
     /**
      * @var \Carbon\Carbon|mixed
      */

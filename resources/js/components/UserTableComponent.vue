@@ -49,7 +49,7 @@
                         <div  class="form-group float-left w-25">
                             <label for="exampleInputEmail1">البحث</label>
                             <input type="text" @input="searchMethod()" class="form-control" id="exampleInputEmail1"
-                                   v-model="search"  placeholder="رقم الهوية أو اسم المكان">
+                                   v-model="search"  placeholder="اسم المشرف أو البريد الالكتروني">
                         </div>
                         <table class="table">
                             <thead>
