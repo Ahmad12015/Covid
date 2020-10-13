@@ -19,17 +19,16 @@ class MobileApiController extends Controller
         $checkin->checkin_time = Carbon::now();
         $checkin->save();
 
-        return response()->json($checkin);
+        return response()->json($checkin,200);
     }
 
    public function checkout(Request $request)
     {
         
-        $checkin =  Checkin::fine($request->checkin_id);
+        $checkin =  Checkin::findOrFail($request->checkin_id);
         $checkin->checkout_time = Carbon::now();
         $checkin->update();
-
-        return response()->json($checkin);
+        return response()->json($checkin,200);
         
     }
 
